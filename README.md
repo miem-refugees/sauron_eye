@@ -1,21 +1,18 @@
-# Python Repository Template (3.13)
+# Око Саурона
 
-## Overview
+## Обзор
 
-This repository template provides a basic structure for your Python
-projects. It includes essential files and directories to ensure
-consistency across all projects.
+Сервис для получение актуальных геоданных
 
-## Dependencies
+## Локальная разработка
 
-The following libraries are required:
+1. Установить зависимости:
 
-* Python 3.x
-* `ruff` library for linting
+* [Python 3.12](https://www.python.org)
+* [uv](https://docs.astral.sh/uv)
 
-## Folders and Files**
+2. Локальный запуск:
 
-* `src/`: The source code directory, containing main.py and other Python
-files.
-* `tests/`: The test directory, containing test_main.py and other test
-files.
+```bash
+make airflow
+```
