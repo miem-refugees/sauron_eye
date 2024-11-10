@@ -3,7 +3,7 @@
 PROJECT_ROOT:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 .EXPORT_ALL_VARIABLES:
   AIRFLOW_HOME=$(PROJECT_ROOT)/.airflow
-  AIRFLOW__CORE__DAGS_FOLDER=$(PROJECT_ROOT)/sauron-eye/dags
+  AIRFLOW__CORE__DAGS_FOLDER=$(PROJECT_ROOT)/sauron_eye/dags
 
 airflow:
 	uv run airflow standalone
