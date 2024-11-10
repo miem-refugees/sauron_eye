@@ -1,4 +1,4 @@
-name: CI/CD Tests
+name: CI Python
 
 on:
   push:
@@ -27,5 +27,8 @@ jobs:
       - name: Install the project
         run: uv sync --all-extras --dev
 
+      - name: Ruff linter
+        uses: astral-sh/ruff-action@v1
+
       - name: Run tests
-        run: uv run pytest tests
+        run: uv run pytest sauron_eye/tests
