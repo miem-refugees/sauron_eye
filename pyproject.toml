@@ -1,10 +1,17 @@
 [project]
-name = "sauron-eye"
+name = "sauron_eye"
 version = "0.1.0"
 description = "Сервис для получение актуальных геоданных"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "apache-airflow>=2.10.3",
-    "pytest>=8.3.3",
+  "apache-airflow>=2.10.3",
+  "geopandas>=1.0.1",
+  "matplotlib>=3.9.2",
+  "numpy>=2.1.3",
+  "pandas>=2.2.3",
+  "pyarrow>=18.0.0",
+  "pyrosm>=0.6.2",
+  "pytest>=8.3.3",
+  "torch>=2.5.1",
 ]
