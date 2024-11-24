@@ -14,6 +14,7 @@ dependencies = [
   "pyrosm>=0.6.2",
   "pytest>=8.3.3",
   "qdrant-client>=1.12.1",
+  "sentence-transformers>=3.3.1",
   "torch>=2.5.1",
 ]
 
@@ -21,4 +22,5 @@ dependencies = [
 dev = [
     "ipykernel>=6.29.5",
     "rust-just>=1.37.0",
+    "tqdm>=4.67.0",
 ]
